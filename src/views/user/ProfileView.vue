@@ -61,7 +61,7 @@ const updateProfile = () => {
     
     <div
       class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
-      <h1 class="text-2xl">67706134 - จุลศักดิ์ โพธิ์สิทธิ์ </h1>
+      <h1 class="text-2xl">67706134 - Junlasak Phosit </h1>
       <div class="flex flex-col items-center">
         <div class="avatar">
           <div class="w-24 rounded-full">
