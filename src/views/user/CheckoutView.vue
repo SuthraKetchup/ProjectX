@@ -69,7 +69,7 @@ const checkout = () => {
             </button>
           </div>
         </section>
-        <section class="flex-auto w-32 bg-slate-200">
+        <section class="flex-auto w-32 bg-slate-800">
           <div class="px-8">
             <ul>
               <li v-for="(item, index) in userCartStore.items" class="px-2 flex py-6" :key="index">

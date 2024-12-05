@@ -48,33 +48,72 @@ const updateProfile = () => {
 <template>
   <UserLayout>
     <div
-      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md"
-    >
-      <h1 class="text-2xl">Your profile</h1>
+      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
+      <h1 class="text-2xl">67704242 - Suthara Chanachai</h1>
       <div class="flex flex-col items-center">
         <div class="avatar">
           <div class="w-24 rounded-full">
-            <img :src="userData.imageUrl" />
+            <img src="/dist/assets/image-DSNCGjza.png" alt="">
           </div>
         </div>
-
-        <input type="file" @change="handleFileChange">
-
-        <div v-for="item in userForm" class="form-control w-full">
-          <label class="label">
-            <span class="label-text">{{ item.name }}</span>
-            <span class="label-text-alt"></span>
-          </label>
-          <input
-            type="text"
-            placeholder="Type here"
-            class="input input-bordered w-full"
-            v-model="userData[item.field]"
-          />
-        </div>
-
-        <button class="btn btn-primary w-full mt-4" @click="updateProfile">Update profile</button>
       </div>
     </div>
+    
+    <div
+      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
+      <h1 class="text-2xl">67706134 - จุลศักดิ์ โพธิ์สิทธิ์ </h1>
+      <div class="flex flex-col items-center">
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="/dist/assets/Junlasak.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
+      <h1 class="text-2xl">67711392 - Parinya Srisuntornpapoj</h1>
+      <div class="flex flex-col items-center">
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="/dist/assets/67711392 Parinya Srisuntornpapoj.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
+      <h1 class="text-2xl">67707514 - เจษฎากร แหลมแสน</h1>
+      <div class="flex flex-col items-center">
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="/dist/assets/Jetsadakorn Laemsen.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
+      <h1 class="text-2xl">67706660 - วัชรินทร์ สมบุญผลปรีชา</h1>
+      <div class="flex flex-col items-center">
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="/dist/assets/67706660 นาย วัชรินทร์ สมบุญผลปรีชา.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
+      <h1 class="text-2xl">67711265 - ธนัช ฉายาวัฒนะ</h1>
+      <div class="flex flex-col items-center">
+        <div class="avatar">
+          <div class="w-24 rounded-full">
+            <img src="/dist/assets/67711265 นาย ธนัช ฉายาวัฒนะ.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary w-full mt-4" @click="updateProfile">Upload your  profile</button>
   </UserLayout>
 </template>

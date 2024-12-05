@@ -62,7 +62,7 @@ const removeItemInCart = (index) => {
             </li>
           </ul>
         </section>
-        <section class="flex-auto w-32 bg-slate-200 p-8">
+        <section class="flex-auto w-32 bg-slate-700 p-8">
           <h2 class="text-2xl">Order summary</h2>
           <div class="mt-4 m-0 divide-y divide-base-200">
             <div class="flex align-middle justify-between mb-2">

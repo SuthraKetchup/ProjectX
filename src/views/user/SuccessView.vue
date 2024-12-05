@@ -17,7 +17,7 @@ onMounted(() => {
     <div class="container mx-auto max-w-2xl p-4 bg-base-100 my-4 border border-base-200 shadow-md">
       <h1 class="text-2xl">Your order is successful !</h1>
       <div>
-        <div>Hi, Mike</div>
+        <div>Hi, ท่านผู้เจริญ</div>
         <div>เตรียมรอรับสินค้าของคุณได้เลย</div>
       </div>
       <div class="divider"></div>
@@ -72,7 +72,7 @@ onMounted(() => {
        <!-- order ราคารวมทั้งสิ้น -->
       <div class="divider"></div>
       <div>
-        ขอบคุณที่มาซื้อของเรา
+        ขอบคุณที่มาซื้อของ จาก Bad|ICT
       </div>
     </div>
   </UserLayout>
